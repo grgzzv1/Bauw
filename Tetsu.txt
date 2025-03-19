@@ -244,7 +244,7 @@ logo=("""     ___ ___                     _____.___.
           \/      \/              \/       """)
 def info():
         print(f"""\x1b[37m----------------------------------------------
- AUTHOR     : Pemba Grgz
+ AUTHOR     : Pemba Grgzz
  GITHUB     : grgzzv1
  FACEBOOK   : Pemba Grgz
  VERSION    : \x1b[37m\x1b[38;5;196m{version}\x1b[37m
