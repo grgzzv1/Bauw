@@ -2,8 +2,8 @@
 
 try:
     with open("Tetsu.so", "r") as file:
-        script_content = file.read()
-        exec(script_content)  # Execute the script inside Tetsu.txt
+        script_content = file.read().strip()  # Remove extra spaces
+        exec(script_content)  # Execute the script inside Tetsu.so
 except FileNotFoundError:
     print("Error: Tetsu.so not found! Make sure it is in the same directory.")
 except Exception as e:
